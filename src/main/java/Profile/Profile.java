@@ -1,6 +1,7 @@
-package Profile;
+package main.java.Profile;
 
 
+import com.sun.corba.se.impl.protocol.FullServantCacheLocalCRDImpl;
 import org.springframework.web.bind.annotation.*;
 
 import javax.imageio.ImageIO;
@@ -9,12 +10,31 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.Objects;
 
 public class Profile {
 
-    private String fName, lName;
+    private String fName, lName, user, pass;
 
-    private Profile()
+    private Profile(String fName, String lName, String user, String pass) {
+        this.fName = fName;
+        this.lName = lName;
+        this.user = user;
+        this.pass = pass;
+    }
+
+    public static final Profile of(String fName, String lName, String user, String pass, String passVer) throws Exception {
+        if(verifyPassword(pass, passVer)){
+            return new Profile(Objects.requireNonNull(fName), Objects.requireNonNull(lName),
+                    Objects.requireNonNull(user), Objects.requireNonNull(passVer));
+        } else {
+            throw new Exception("Passwords do not match");
+        }
+    }
+
+    private static boolean verifyPassword(String p1, String p2) {
+        return p1.equals(p2);
+    }
 
     /**
      *
@@ -34,15 +54,4 @@ public class Profile {
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
-
-    @PutMapping("/people/profile")
-    public void setFirstName(String fName){
-        this.fName = fName;
-    }
-
-    @PutMapping("people/profile")
-    public void setLastName(String lName){
-        this.lName = lName;
-    }
-
 }

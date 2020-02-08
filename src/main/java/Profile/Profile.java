@@ -1,19 +1,11 @@
 package main.java.Profile;
 
 
-import com.sun.corba.se.impl.protocol.FullServantCacheLocalCRDImpl;
 import main.java.FundAProject.Project;
-import org.springframework.web.bind.annotation.*;
+import main.java.lib.Description;
 
-import javax.imageio.ImageIO;
-import javax.swing.*;
-import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.Objects;
 
 public class Profile {

@@ -14,7 +14,7 @@ public class Financial {
         if(validCreditScore(creditScore) && validIncome(income)){
             return new Financial(creditScore, income);
         }else {
-            throw new Exception("Bad bad bad");
+            throw new Exception("Bad info");
         }
     }
 

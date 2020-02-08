@@ -1,4 +1,4 @@
-package main.java.Profile;
+package main.java.lib;
 
 import java.util.Objects;
 

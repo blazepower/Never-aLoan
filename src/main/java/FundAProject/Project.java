@@ -1,16 +1,17 @@
 package main.java.FundAProject;
 
 import main.java.Profile.*;
-import sun.security.krb5.internal.crypto.Des;
+import main.java.lib.Description;
 
 import java.math.BigDecimal;
-import java.util.HashMap;
+import java.util.*;
+import java.util.List;
 import java.util.Objects;
 
 public class Project {
     private String projectName;
     private BigDecimal totalLoan, intrestRate, progress;
-    private HashMap<Profile, BigDecimal> donationss;
+    private List<Donation> donations;
     private Description projectDescription;
 
     private Project (String projectName, BigDecimal totalLoan, BigDecimal intrestRate) {
@@ -28,8 +29,8 @@ public class Project {
         this.projectDescription = Description.of(description);
     }
 
-    void donate(Profile donor, BigDecimal amount){
-        
+    void donate(Profile donor, BigDecimal donationAmount){
+        donations.add(Donation.of(donor, donationAmount));
     }
 
     public String getProjectName(){

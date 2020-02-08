@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38bbca8d-a003-4bb6-964e-70a19f16595e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FundAProject/Donation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Profile/Description.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FundAProject/Donation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FundAProject/Donation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FundAProject/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FundAProject/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Profile/Description.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/Description.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Profile/Financial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Profile/Financial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Profile/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Profile/Profile.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +41,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -53,6 +55,15 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="main.java.code.MainApplicationClass" />
+      <module name="Never-aLoan" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -64,7 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1581136404154</updated>
       <workItem from="1581136407378" duration="2874000" />
-      <workItem from="1581143387157" duration="8722000" />
+      <workItem from="1581143387157" duration="9043000" />
+      <workItem from="1581191677636" duration="2432000" />
     </task>
     <task id="LOCAL-00001" summary="adding project">
       <created>1581184207436</created>
@@ -94,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581186214263</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated profile">
+      <created>1581191270525</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581191270525</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +136,7 @@
     <MESSAGE value="adding project" />
     <MESSAGE value="profile constructor" />
     <MESSAGE value="add more functionality to profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="add more functionality to profile" />
+    <MESSAGE value="updated profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated profile" />
   </component>
 </project>

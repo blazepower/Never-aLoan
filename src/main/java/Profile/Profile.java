@@ -15,6 +15,8 @@ import java.util.Objects;
 public class Profile {
 
     private String fName, lName, user, pass;
+    private String bio;
+    private Financial financialProfile;
 
     private Profile(String fName, String lName, String user, String pass) {
         this.fName = fName;
@@ -36,22 +38,11 @@ public class Profile {
         return p1.equals(p2);
     }
 
-    /**
-     *
-     * @param file
-     * @throws IOException
-     */
-    @PutMapping("/people/profile")
-    public void setProfilePicture(File file) throws IOException {
-        BufferedImage image = ImageIO.read(file);
-        ImageIcon icon=new ImageIcon(image);
-        JFrame frame=new JFrame();
-        frame.setLayout(new FlowLayout());
-        frame.setSize(200,300);
-        JLabel lbl=new JLabel();
-        lbl.setIcon(icon);
-        frame.add(lbl);
-        frame.setVisible(true);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    void setBio(String bio){
+        this.bio = bio;
+    }
+
+    void addFinacialInformation(int creditScore, int income) {
+        this. financialProfile = Financial.of(creditScore, income);
     }
 }

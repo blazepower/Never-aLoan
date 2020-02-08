@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38bbca8d-a003-4bb6-964e-70a19f16595e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/FundAProject/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FundAProject/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Profile/Financial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Profile/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Profile/Profile.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581136404154</updated>
       <workItem from="1581136407378" duration="2874000" />
-      <workItem from="1581143387157" duration="3335000" />
+      <workItem from="1581143387157" duration="4624000" />
     </task>
     <task id="LOCAL-00001" summary="adding project">
       <created>1581184207436</created>
@@ -70,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581184207436</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="profile constructor">
+      <created>1581184880878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581184880878</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding project" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding project" />
+    <MESSAGE value="profile constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="profile constructor" />
   </component>
 </project>

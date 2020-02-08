@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38bbca8d-a003-4bb6-964e-70a19f16595e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FundAProject/Project.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Profile/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Profile/Profile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code/MainApplicationClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/MainApplicationClass.java" afterDir="false" />
@@ -62,6 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581136404154</updated>
       <workItem from="1581136407378" duration="2874000" />
+      <workItem from="1581143387157" duration="2622000" />
     </task>
     <servers />
   </component>
@@ -73,7 +76,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -14,6 +14,8 @@ public class Profile {
 
     private String fName, lName;
 
+    private Profile()
+
     /**
      *
      * @param file

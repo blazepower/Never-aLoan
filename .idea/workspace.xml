@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38bbca8d-a003-4bb6-964e-70a19f16595e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Profile/Financial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FundAProject/Donation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Profile/Description.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FundAProject/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FundAProject/Project.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Profile/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Profile/Profile.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581136404154</updated>
       <workItem from="1581136407378" duration="2874000" />
-      <workItem from="1581143387157" duration="4624000" />
+      <workItem from="1581143387157" duration="8722000" />
     </task>
     <task id="LOCAL-00001" summary="adding project">
       <created>1581184207436</created>
@@ -78,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581184880878</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add more functionality to profile">
+      <created>1581186177468</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581186177469</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add more functionality to profile">
+      <created>1581186214263</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581186214263</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding project" />
     <MESSAGE value="profile constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="profile constructor" />
+    <MESSAGE value="add more functionality to profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="add more functionality to profile" />
   </component>
 </project>

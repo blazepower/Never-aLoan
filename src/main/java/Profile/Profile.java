@@ -42,7 +42,7 @@ public class Profile {
         this.bio = bio;
     }
 
-    void addFinacialInformation(int creditScore, int income) {
-        this. financialProfile = Financial.of(creditScore, income);
+    void addFinacialInformation(int creditScore, int income) throws Exception {
+        this.financialProfile = Financial.of(creditScore, income);
     }
 }

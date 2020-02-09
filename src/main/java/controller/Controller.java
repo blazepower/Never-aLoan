@@ -58,7 +58,7 @@ public class Controller {
     }
 
     @PostMapping("/login")
-    public Profile login(@RequestBody String json){
+    public ResponseEntity login(@RequestBody String json){
         int totFields = 2;
         int fields = 0;
         int tagEnd;
@@ -83,10 +83,10 @@ public class Controller {
         }
 
         if (Profile.verifyPassword(password, check.getPass())){
-            return check;
+            return new ResponseEntity(HttpStatus.OK);
         }
         else {
-            return null;
+            return new ResponseEntity(HttpStatus.BAD_REQUEST);
         }
     }
 

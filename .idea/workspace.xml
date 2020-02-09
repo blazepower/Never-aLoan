@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="38bbca8d-a003-4bb6-964e-70a19f16595e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FundAProject/Donation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FundAProject/Donation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FundAProject/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FundAProject/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainApplicationClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MainApplicationClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Profile/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Profile/Profile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/ProfileDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/ProfileDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/ProjectDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/ProjectDatabase.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +107,7 @@
       <workItem from="1581143387157" duration="9043000" />
       <workItem from="1581191677636" duration="11745000" />
       <workItem from="1581205717267" duration="23586000" />
-      <workItem from="1581248071925" duration="2666000" />
+      <workItem from="1581248071925" duration="4998000" />
     </task>
     <task id="LOCAL-00001" summary="adding project">
       <created>1581184207436</created>
@@ -171,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581241739772</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added create and login">
+      <created>1581251470165</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581251470165</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +200,7 @@
     <MESSAGE value="Controller" />
     <MESSAGE value="Controller work" />
     <MESSAGE value="Controller works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Controller works" />
+    <MESSAGE value="Added create and login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added create and login" />
   </component>
 </project>

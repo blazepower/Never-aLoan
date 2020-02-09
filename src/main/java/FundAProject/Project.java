@@ -23,6 +23,12 @@ public class Project {
         id++;
     }
 
+    private Project(String projectName, BigDecimal totalLoan){
+        this.projectName = projectName;
+        this.totalLoan = totalLoan;
+        id++;
+    }
+
     public static final Project of(String projectName,  BigDecimal totalLoan, BigDecimal intrestRate) {
         return new Project(Objects.requireNonNull(projectName),
                 Objects.requireNonNull(totalLoan), Objects.requireNonNull(intrestRate));
@@ -30,7 +36,7 @@ public class Project {
 
     public static final Project of(String projectName,  BigDecimal totalLoan) {
         return new Project(Objects.requireNonNull(projectName),
-                Objects.requireNonNull(totalLoan), Objects.requireNonNull(intrestRate));
+                Objects.requireNonNull(totalLoan));
     }
     
     public void setProjectDescription(String description){

@@ -116,7 +116,7 @@ public class Controller {
     }
 
     @GetMapping("/projects/{id}")
-    public Project viewProject(int id){
+    public Project viewProject(@RequestBody Integer id){
         return projectDatabase.getProject(id);
     }
 

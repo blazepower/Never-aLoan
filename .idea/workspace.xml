@@ -2,13 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38bbca8d-a003-4bb6-964e-70a19f16595e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JAX_RS_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/FastInoset.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gmbal-api-only.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ha-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ws.rs-api-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jaxb-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jaxb-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jaxb-xjc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jaxws-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jaxws-rt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jaxws-tools.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsr181-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mail.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/management-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mimepull.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/policy.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/saaj-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/saaj-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/stax-ex.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/stax2-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/streambuffer.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/woodstox-core-asl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/resources/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/ProfileDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/ProjectDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FundAProject/Donation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FundAProject/Donation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FundAProject/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FundAProject/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Profile/Description.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/Description.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Profile/Financial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Profile/Financial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Profile/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Profile/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/MainApplicationClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainApplicationClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +45,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -34,14 +60,27 @@
     </option>
   </component>
   <component name="ProjectId" id="1XVfuQwMfkDPhEUDDim2stmpidQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v10.16.0-win-x64/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Jack 2019\Never-aLoan\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -55,14 +94,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.main">
     <configuration name="main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="main.java.code.MainApplicationClass" />
+      <option name="MAIN_CLASS_NAME" value="main.java.MainApplicationClass" />
       <module name="Never-aLoan" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.main" />
+      <item itemvalue="JavaScript Debug.Debug Application" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -76,7 +122,8 @@
       <updated>1581136404154</updated>
       <workItem from="1581136407378" duration="2874000" />
       <workItem from="1581143387157" duration="9043000" />
-      <workItem from="1581191677636" duration="2432000" />
+      <workItem from="1581191677636" duration="11745000" />
+      <workItem from="1581205717267" duration="5148000" />
     </task>
     <task id="LOCAL-00001" summary="adding project">
       <created>1581184207436</created>
@@ -113,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581191270525</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Controller">
+      <created>1581194178067</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581194178067</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,10 +187,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="adding project" />
     <MESSAGE value="profile constructor" />
     <MESSAGE value="add more functionality to profile" />
     <MESSAGE value="updated profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated profile" />
+    <MESSAGE value="Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controller" />
   </component>
 </project>

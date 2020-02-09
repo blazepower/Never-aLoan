@@ -2,37 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38bbca8d-a003-4bb6-964e-70a19f16595e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/JAX_RS_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastInoset.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/gmbal-api-only.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ha-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.ws.rs-api-2.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb-impl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb-xjc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxws-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxws-rt.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxws-tools.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jsr181-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mail.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/management-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mimepull.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/policy.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/saaj-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/saaj-impl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/stax-ex.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/stax2-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/streambuffer.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/woodstox-core-asl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/resources/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/ProfileDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/ProjectDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Profile/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Profile/Profile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code/MainApplicationClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainApplicationClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainApplicationClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainApplicationClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -105,9 +78,17 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="MainApplicationClass" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Never-aLoan" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="main.java.MainApplicationClass" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.main" />
       <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="Spring Boot.MainApplicationClass" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -123,7 +104,7 @@
       <workItem from="1581136407378" duration="2874000" />
       <workItem from="1581143387157" duration="9043000" />
       <workItem from="1581191677636" duration="11745000" />
-      <workItem from="1581205717267" duration="5148000" />
+      <workItem from="1581205717267" duration="17307000" />
     </task>
     <task id="LOCAL-00001" summary="adding project">
       <created>1581184207436</created>
@@ -167,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581194178067</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Controller work">
+      <created>1581216902326</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581216902326</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +181,7 @@
     <MESSAGE value="add more functionality to profile" />
     <MESSAGE value="updated profile" />
     <MESSAGE value="Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Controller" />
+    <MESSAGE value="Controller work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controller work" />
   </component>
 </project>

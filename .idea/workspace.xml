@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38bbca8d-a003-4bb6-964e-70a19f16595e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainApplicationClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainApplicationClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FundAProject/Donation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FundAProject/Donation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FundAProject/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FundAProject/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainApplicationClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MainApplicationClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Profile/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Profile/Profile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/ProfileDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/ProfileDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/ProjectDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/ProjectDatabase.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Rishik Hombal &lt;hombalrishik@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -69,7 +77,7 @@
   </component>
   <component name="RunManager" selected="Application.main">
     <configuration name="main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="main.java.MainApplicationClass" />
+      <option name="MAIN_CLASS_NAME" value="controller.MainApplicationClass" />
       <module name="Never-aLoan" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,7 +88,7 @@
     </configuration>
     <configuration name="MainApplicationClass" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Never-aLoan" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="main.java.MainApplicationClass" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="controller.MainApplicationClass" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,7 +112,8 @@
       <workItem from="1581136407378" duration="2874000" />
       <workItem from="1581143387157" duration="9043000" />
       <workItem from="1581191677636" duration="11745000" />
-      <workItem from="1581205717267" duration="17307000" />
+      <workItem from="1581205717267" duration="23586000" />
+      <workItem from="1581248071925" duration="2666000" />
     </task>
     <task id="LOCAL-00001" summary="adding project">
       <created>1581184207436</created>
@@ -155,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581216902326</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Controller works">
+      <created>1581241739772</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581241739772</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +198,7 @@
     <MESSAGE value="updated profile" />
     <MESSAGE value="Controller" />
     <MESSAGE value="Controller work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Controller work" />
+    <MESSAGE value="Controller works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controller works" />
   </component>
 </project>

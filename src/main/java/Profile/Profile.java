@@ -1,7 +1,8 @@
-package main.java.Profile;
+package Profile;
 
 
-import main.java.FundAProject.Project;
+import FundAProject.Project;
+import FundAProject.Project;
 import main.java.lib.Description;
 
 import javax.swing.plaf.basic.BasicScrollPaneUI;
@@ -15,7 +16,7 @@ public class Profile {
 
     private String fName, lName, user, pass;
     private Description bio;
-    private Financial financialProfile;
+    private main.java.Profile.Financial financialProfile;
     private HashMap<String, Project> myProjects;
     private List<Project> donatedTo;
 
@@ -31,7 +32,7 @@ public class Profile {
                 Objects.requireNonNull(user), Objects.requireNonNull(pass));
     }
 
-    private static boolean verifyPassword(String p1, String p2) {
+    public static boolean verifyPassword(String p1, String p2) {
         return p1.equals(p2);
     }
 
@@ -40,7 +41,7 @@ public class Profile {
     }
 
     void addFinacialInformation(int creditScore, int income) throws Exception {
-        this.financialProfile = Financial.of(creditScore, income);
+        this.financialProfile = main.java.Profile.Financial.of(creditScore, income);
     }
 
     void createProject(String projectTitle, BigDecimal loanRequest, BigDecimal intrestRate) {
@@ -58,6 +59,10 @@ public class Profile {
 
     public List<Project> getDonated() {
          return this.donatedTo;
+    }
+
+    public String getPass(){
+        return pass;
     }
     @Override
     public boolean equals(Object o) {

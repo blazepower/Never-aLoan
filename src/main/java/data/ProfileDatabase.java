@@ -1,6 +1,6 @@
-package main.java.data;
+package data;
 
-import main.java.Profile.Profile;
+import Profile.Profile;
 
 import java.util.HashMap;
 
@@ -18,5 +18,9 @@ public class ProfileDatabase {
 
     public Profile getProfile(String name) {
         return profiles.get(name);
+    }
+
+    public int getSize(){
+        return profiles.size();
     }
 }

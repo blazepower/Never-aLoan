@@ -1,6 +1,6 @@
-package main.java.FundAProject;
+package FundAProject;
 
-import main.java.Profile.*;
+import Profile.*;
 import main.java.lib.Description;
 
 import java.math.BigDecimal;
@@ -11,16 +11,18 @@ import java.util.Objects;
 public class Project {
     private String projectName;
     private BigDecimal totalLoan, intrestRate, progress;
-    private List<Donation> donations;
+    private List<FundAProject.Donation> donations;
     private Description projectDescription;
+    private String description;
 
     private Project (String projectName, BigDecimal totalLoan, BigDecimal intrestRate) {
         this.projectName = projectName;
         this.totalLoan = totalLoan;
+        this.description = description;
         this.intrestRate = intrestRate;
     }
 
-    public static final Project of(String projectName, BigDecimal totalLoan, BigDecimal intrestRate) {
+    public static final Project of(String projectName,  BigDecimal totalLoan, BigDecimal intrestRate) {
         return new Project(Objects.requireNonNull(projectName),
                 Objects.requireNonNull(totalLoan), Objects.requireNonNull(intrestRate));
     }
@@ -30,7 +32,7 @@ public class Project {
     }
 
     void donate(Profile donor, BigDecimal donationAmount){
-        donations.add(Donation.of(donor, donationAmount));
+        donations.add(FundAProject.Donation.of(donor, donationAmount));
     }
 
     public String getProjectName(){

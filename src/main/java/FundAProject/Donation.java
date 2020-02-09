@@ -1,6 +1,6 @@
-package main.java.FundAProject;
+package FundAProject;
 
-import main.java.Profile.Profile;
+import Profile.Profile;
 
 import java.math.BigDecimal;
 import java.util.HashMap;

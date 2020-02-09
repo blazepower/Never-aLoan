@@ -14,12 +14,14 @@ public class Project {
     private List<FundAProject.Donation> donations;
     private Description projectDescription;
     private String description;
+    private static Integer id = 0;
 
     private Project (String projectName, BigDecimal totalLoan, BigDecimal intrestRate) {
         this.projectName = projectName;
         this.totalLoan = totalLoan;
         this.description = description;
         this.intrestRate = intrestRate;
+        id++;
     }
 
     public static final Project of(String projectName,  BigDecimal totalLoan, BigDecimal intrestRate) {
@@ -41,5 +43,9 @@ public class Project {
 
     public BigDecimal getProgress(){
         return this.progress;
+    }
+
+    public Integer getId(){
+        return this.id;
     }
 }

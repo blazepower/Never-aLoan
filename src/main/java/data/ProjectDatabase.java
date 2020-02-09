@@ -9,14 +9,15 @@ import java.util.List;
 
 public class ProjectDatabase {
     //HashMap<Profile, List<Project>> projects;
-    List<Project> projects;
+    //List<Project> projects;
+    HashMap<Integer, Project> projects;
 
     public ProjectDatabase() {
-        this.projects = new ArrayList<>();
+        this.projects = new HashMap<>();
     }
 
     public void addProject(Project project) {
-        projects.add(project);
+        projects.put(project.getId(), project);
         /*List<Project> pList = new ArrayList<>();
         if(this.projects.containsKey(owner)){
             pList = this.projects.get(owner);
@@ -28,7 +29,11 @@ public class ProjectDatabase {
         }*/
     }
 
-   /* public List<Project> getProjects(Profile user){
+    /*public List<Project> getProjects(Profile user){
         return this.projects.get(user);
     }*/
+
+    public Project getProject(Integer id){
+        return projects.get(id);
+    }
 }

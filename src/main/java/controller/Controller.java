@@ -115,4 +115,9 @@ public class Controller {
         projectDatabase.addProject(p);
     }
 
+    @GetMapping("/projects/{id}")
+    public Project viewProject(int id){
+        return projectDatabase.getProject(id);
+    }
+
 }

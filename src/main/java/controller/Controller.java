@@ -120,4 +120,28 @@ public class Controller {
         return projectDatabase.getProject(id);
     }
 
+    @PostMapping("/projects")
+    public int makeProject(@RequestBody String json){
+        int totFields = 2;
+        int fields = 0;
+        int tagEnd;
+        int lastColon = 0;
+        String[] values = new String[totFields];
+        int valueStart, valueEnd;
+
+        while (fields != totFields){
+            tagEnd = json.indexOf(':', lastColon + 1);
+            valueStart = json.indexOf("\"", tagEnd);
+            valueEnd = json.indexOf("\"", valueStart+1);
+            values[fields] = json.substring(valueStart, valueEnd);
+            lastColon = tagEnd;
+            fields++;
+        }
+        String title = values[0]; String loan = values[1];
+
+        Project p = Project.of(title, new BigDecimal(loan));
+        projectDatabase.addProject(p);
+        return 1;
+    }
+
 }

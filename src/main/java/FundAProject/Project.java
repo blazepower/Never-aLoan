@@ -19,12 +19,16 @@ public class Project {
     private Project (String projectName, BigDecimal totalLoan, BigDecimal intrestRate) {
         this.projectName = projectName;
         this.totalLoan = totalLoan;
-        this.description = description;
         this.intrestRate = intrestRate;
         id++;
     }
 
     public static final Project of(String projectName,  BigDecimal totalLoan, BigDecimal intrestRate) {
+        return new Project(Objects.requireNonNull(projectName),
+                Objects.requireNonNull(totalLoan), Objects.requireNonNull(intrestRate));
+    }
+
+    public static final Project of(String projectName,  BigDecimal totalLoan) {
         return new Project(Objects.requireNonNull(projectName),
                 Objects.requireNonNull(totalLoan), Objects.requireNonNull(intrestRate));
     }

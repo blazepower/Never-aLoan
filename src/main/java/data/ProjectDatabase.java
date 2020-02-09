@@ -14,6 +14,7 @@ public class ProjectDatabase {
 
     public ProjectDatabase() {
         this.projects = new HashMap<>();
+
     }
 
     public void addProject(Project project) {
